@@ -1218,20 +1218,23 @@ article{
 footer{
     flex-direction: column;
     
- 
     /* restaurant name formatting */
     h5{
         font-size: .825em;
+        
     }
+    h4{
+      font-size: .75px;
+      }
     p{
         font-size: .75em;
     }
     /* footer sub-container1 - address and links */
     .footer1{
         flex-direction: column;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 5px;
         padding-bottom: 0;
         .footers {
             display: flex;
