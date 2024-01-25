@@ -1250,7 +1250,7 @@ footer{
             .quicklinks-container,
             .socialscontainer {
                 flex:auto;
-                width: auto;; 
+                width: auto;
                 padding-top: 10px;
                 /* box-sizing:content-box; */
                 flex-direction: column;
@@ -1258,8 +1258,9 @@ footer{
             
      
             }
+          
             
-            .socialscontainer{
+            .socialscontainer,.quick links-container{
                 ul.sociallinks,ul.quicklinks{
                     font-size: .75em;
                 
