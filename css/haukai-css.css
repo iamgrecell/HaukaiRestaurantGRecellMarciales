@@ -1,0 +1,2275 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-image: url(/images/restaurant_photo2.jpg);
+    width: auto;
+    background-size: cover;
+  
+}
+header{
+  
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(199, 28, 25);
+    padding: 10px;
+    align-items: center;
+    width: auto;
+    height: auto;
+
+
+}
+h1{
+    width: fit-content;
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    font-size: 3.5em;
+   
+    
+}
+h2{
+    align-items: center;
+    font-size: 3em;
+    justify-content: center;
+    text-shadow: 4px 4px 4px #000000;
+
+}
+
+h3{
+
+    font-size: 2em;
+    text-align: center;
+    border: none;
+    height: 50px;
+    padding: 30px;
+}
+h4{
+    font-size: 1em;
+    text-align: center;
+}
+h5{
+    font-size: .875em;
+font-family:'Times New Roman', Times, serif;
+}
+
+/* VIEW MENU AMD BOOK NOW BUTTONS */
+/* buttons main container */
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    height: 70px;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    /* button formatting */
+   .button {
+        display: inline-block;
+        background-color: #C71C19;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        
+        padding: 15px 32px;
+        width: 160px;
+        
+        font-size: 16px;
+        margin: 4px 8px;
+        text-align: center;
+        text-decoration: none;
+        
+        cursor: pointer;
+    
+    
+    }
+    /* button text */
+    a{
+        color: white;
+        text-decoration: none;
+    }
+/* hover */
+    :hover a{
+
+        color: #000000;
+        font-weight: 600;
+    
+ } 
+}
+
+
+
+/* ---NAV BAR */
+.menu{
+    margin-left: auto;
+    width: 100%;
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: right;
+        font-size: 1em;
+        width: 100%;
+    }
+    a {
+        display: block;
+        padding: 10px 10px;
+        color: #fcfcfc;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    li a:hover:not(.active) {
+
+        color: black;
+        font-weight: 600;
+        }
+    .active{
+        background-color: #D25419;
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+}
+
+/* ---INDEX--HOMEPAGE */
+/* hero image = welcome section*/
+
+ .welcomemsg { 
+    display: flex;
+    background-image: url(/images/restaurant_photo.jpg);
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    width: 100%;
+    height: 550px;
+    h2{
+        padding-top: 200px;
+        padding-bottom: 0;
+        font-size: 3.5em;
+        height: 50px;
+        justify-content: center;
+        color: aliceblue;
+        text-shadow: 4px 4px 4px #000000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+}   
+
+
+
+/* Events */
+.events {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    width: auto;
+    article{
+        justify-content: center;
+        background-color: rgb(255, 255, 255, 0.3) ;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        
+    }
+}
+
+/* Traditional Recipes */
+.traditionalrecipes{
+    padding-top: 100px;
+    article{
+        width: auto;
+        padding-left: 150px;
+        padding-right: 150px;
+        line-height: 1.5;
+        float: center;
+        text-align: left;
+    }
+}
+
+.imagesrecipes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    .recipesimages img {
+        width: 350px;
+        height: 350;
+        padding: 10px;
+    
+}
+}
+
+
+/*Dining experiences section*/
+/* dining experiences container */
+.dining-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    h3{ 
+        width: 100%;
+        justify-content: center;
+    }
+    /* dining experiences header */
+   .experiences-header{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+   }
+   /* dining experiences sub-container */
+   .dining-container2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        justify-content: space-evenly;
+        /* dinging experiences paragraph container */
+        .diningparagraph{
+            flex-direction: row;
+            width: 800px;
+            line-height: 1.5;
+    
+            article{
+                width: 700px;
+    
+
+                display: flex;
+                text-align: justify;
+                padding: 50px;
+                margin-left: 100px;
+                margin-right: 100px;
+                font-size: 1.3em;
+                height: auto;
+                width: auto;
+                line-height: 1.5;
+                
+            
+            }
+            /* VIEW GALLERY button */
+            #gallerylink a{
+                width: auto;
+                font-size: 1em;
+                margin-left: 100px;
+                margin-top: 30px;
+                float: left;
+                color: white;
+                text-decoration: none;
+                border-style: outset;
+                padding: 15px;
+                border-radius: 15px;
+            }
+            #gallerylink a:hover{
+                background-color: white;
+                color: rgb(0, 0, 0);
+                       
+            }
+        }   
+        /* dining experiences image container */
+        .dining{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: auto;
+           img{
+                float: right;
+                height: auto;
+                width: 400px;
+                margin-right: 100px;
+
+
+            }
+        }
+        /* dining experience images */
+        
+   }
+ 
+    /* paragraph formatting - dining experiences */
+    article{
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 700px;
+        text-align: left;
+
+    }
+    }
+/* Paragraph formatting (traditional recipes, what's on) */
+article{
+    display: flex;
+    text-align: justify;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 1.3em;
+    height: auto;
+    width: auto;
+    line-height: 1.5;
+
+}
+
+
+
+/* TESTIMONIALS section */
+/* testimonials main container */
+.testimonials{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: auto;
+/* testimonials sub-container */
+    .testimonials-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+        width: auto;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 100px;
+        /* testimonials paragraph */
+            p{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            margin-bottom: 100px;
+            text-align: left;
+            width: 500px;
+            height: auto;
+            line-height: 1.5;
+            font-style: italic;
+            font-size: 1.3em;
+            padding: 25px;
+
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            
+            
+            
+        } 
+    }
+   
+}
+
+
+/* footer Section*/
+/*FOOTER main container */
+footer{
+    color: #ffffff;
+    background-color:#C71C19;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* restaurant name formatting */
+    h5{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 1em;
+    }
+    /* footer sub-container1 - address and links */
+    .footer1{
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 10px;
+        .footers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+            #restaurant-name{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.5em;
+
+            }
+            .address, .hours,
+            .quicklinks-container,
+            .socialscontainer {
+                flex: 1;
+                max-width: 250px; 
+                padding: 10px;
+                box-sizing: border-box;
+                flex-direction: column;
+                font-size: .875em;
+            
+                .quicklinks,
+                .sociallinks {
+                    
+                    list-style-type: none;
+                    padding: 0;
+                    margin:0;
+                    .quicklinks li,
+                    .sociallinks li {
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                     
+
+                    }
+
+                }
+                .quicklinks a,
+                .sociallinks a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    /* font-size: .875em; */
+                    
+                }
+                /* hover effect on links */
+                .quicklinks a:hover,
+                .sociallinks a:hover {
+                    color:#000000;
+                    font-weight: 600;
+                }
+            }
+            
+            .socialscontainer{
+                display: flex;
+                padding-left: 50px; 
+                ul.sociallinks,ul.quicklinks{
+                
+                    list-style-type: none;
+                
+                }
+
+            }
+    }
+    }
+    /* footer sub-container2 - copyright etc */
+    .footer2{
+        display: flex;
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px;
+        border-top: 2px groove rgb(255, 255, 255);
+
+    }
+
+}
+  
+
+ /* ----------ABOUT US PAGE-------------- */
+/* Header - About Us */
+.header2{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h2{
+    font-size: 4em;
+}
+}
+
+/* ---header backgrounds */
+
+#aboutus{
+    background-image: url(/images/Team.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    }
+/* gallery page */
+#gallery{
+    background-image: url(/images/bacons.jpg);
+}    
+/* contact page */
+#contact{
+    background-image: url(/images/contact.jpg);
+}
+/* reservations page */
+#reservations{
+    background-image: url(/images/reserved_photo.jpg);
+}
+/* menu page */
+#menu{
+    background-image: url(/images/herbs.jpg);
+}
+/* gift cards page */
+#giftcards{
+    background-image: url(/images/gift_cards.jpg);
+}
+
+/* about us page */
+
+/* About Us Paragraph and photo */
+.about-us-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 80px;
+    
+
+    #about-us-image{
+        display: flex;
+        align-content: center;
+        height: auto;
+        width: auto;
+    }
+    img{
+        padding-top: 50px;
+        height: 500px;
+        width: 500px;
+    }
+    #aboutusparagraph{
+        text-align: left;
+        margin: 0;
+        width: 500px;
+        height: auto;
+        padding-left: 60px;
+    
+        
+        p{
+            font-size: 1.3em;
+            font-weight: 600;
+            line-height: 1.8;
+           
+        }
+    }
+
+}
+.businesshours_aboutus{
+
+        h3{
+            padding-top: 0;
+            margin-top: 0;
+            font-family: 'Open Sans', sans serif;
+        }
+        #businesshours{
+            padding: 0;
+            padding-bottom: 50px;
+            #businesshours2{
+                padding: 0;
+                padding-bottom: 50px;
+            }
+        }
+    }
+/* ----MENU PAGE */
+/* menu page buttons main container */
+.menucontainer{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    h3{
+        padding-top: 150px;
+       
+    }
+    .menu1, .menu2 {
+
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        .menubuttons{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            height: 65px;
+            width: 210px;
+            padding: 20px;
+            /* background and border */
+            background-color: transparent;
+            border-style: solid;
+            border-color: white;
+            border-width: 3px;
+        /* text formatting */
+            color:white;
+            font-size: 1.3em;
+            text-decoration: none;
+            
+        }
+    }
+    .menu3{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        width: 100%;
+        padding: 25px;
+        margin-top: 100px;
+        
+        justify-content: center;
+       .menubuttons{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            height: 65px;
+            width: 210px;
+            padding: 20px;
+            /* background and border */
+            background-color: transparent;
+            border-style: solid;
+            border-color: white;
+            border-width: 3px;
+        /* text formatting */
+            color:white;
+            font-size: 1.3em;
+            text-decoration: none;
+        
+    }
+    }
+    .menubuttons:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+}
+
+
+/* formatting for VIEW FULL MENU button */
+.menu3 button.menubuttons{
+    border-style: solid;
+    font-size: 1.5em;
+    text-decoration: none;
+    align-items: center;
+    width: 350px;
+    height: 80px;
+}
+    /* hover effect for all menu page buttons */
+.menubuttons:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+/* ----RESERVATIONS PAGE */
+/* reservations instructions*/
+.reservations{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    h3{
+        margin-top: 50px;
+        padding: 0;
+        
+    }
+    p{
+        text-align: center;
+        padding: 10px;
+    }
+ 
+}
+
+#businesshours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 50px;
+
+}
+/* google calendar formatting */
+.googlecalendar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    iframe{
+        width: 800px;
+        height: 800px;
+        background-color: #ffffff;
+        
+    }
+}
+/* GIFT CARDS PAGE */
+/* giftcard paragraph container */
+#giftcard-paragraph{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100px;
+    padding: 50px;
+    align-items: center;
+    p{  
+        display: flex;
+        height: 150px;
+        width: 600px;
+        text-align: center;
+        align-items: center;
+        font-size: 1.3em;
+        
+    }
+
+}
+.giftcards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    p{
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+    .giftcardsimg{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 150px;
+    
+        p{
+            padding: 25px;
+            margin: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        /* gift cards images */
+        img{
+        width: 300px;
+        height: auto;
+        
+    
+        }
+        /* gift cards buy now button */
+        .button{
+            border-color: #ffffff;
+            border-style: solid;;
+            background-color: transparent;
+            width: 150px;
+            height: 50px;
+            color: white;
+            font-size: 1.5em;
+            a{
+                text-decoration: none;
+                color: white;
+                
+            }
+        }
+        .button:hover{
+            background-color: #ffffff;
+            a{color: black;
+        }
+        }
+    }
+
+}
+
+/* GALLERY PAGE */
+/* paragprah container */
+#gallery-paragraph{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100px;
+    padding: 50px;
+    padding-bottom: 40px;
+    align-items: center;
+    p{  
+        display: flex;
+        height: 150px;
+        width: 700px;
+        text-align: center;
+        align-items: center;
+        font-size: 1.3em;
+        
+    }
+}
+.galleryimages-container1, .galleryimages-container2 {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    column-gap: 5px;
+    height: auto;
+    margin-bottom: 100px;
+    h3{
+       display: flex;
+       flex-direction: column;
+       width: 100%;     
+       padding: 50px;
+        }
+    
+    
+    .restaurant-images img,.foods_img img{
+            width: 450px;
+            height: 225px;
+        }
+    }
+
+    
+
+/* ----CONTACT US PAGE */
+.contactus-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    #businesshours{
+        height: 100px;
+        width: auto;
+        padding: 50px;
+    }
+    h3{
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    h4{
+       
+
+        font-weight: 100;
+        padding: 5px;
+      
+    }
+
+/* google maps */
+    .googlemap{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+        .contact-address{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100px;
+            padding-bottom:  25px;
+            justify-content: center;
+            h3{
+                padding-bottom: 15px;
+            }
+            
+            p{
+                text-align: center;
+                width: 100%;
+                height: auto;
+                flex-direction: column;
+                padding-bottom: 50px;
+            }
+       }
+    }
+    .contactusform{
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            height: auto;
+            align-items: center;
+            padding-bottom: 100px;
+            .contact-inquiry {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 200px;
+                align-items: center;
+        
+            h3{
+                padding-bottom: 15px;
+            }
+            p{
+                height: auto;
+                padding-bottom: 25px;
+
+            }
+        
+            iframe{
+                display: flex;
+                flex-direction: column;
+                width: 700;
+                height: auto;
+                padding-bottom: 100px;
+            }
+            
+        }
+
+
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        
+    margin: 0;
+    padding: 0;
+}
+
+    header{
+      
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(199, 28, 25);
+        padding: 10px;
+        align-items: center;
+        width: auto;
+        height: auto;
+    
+    
+    }
+    h1{
+        font-size: 1.5em;
+       
+        
+    }
+    h2{
+        font-size: 1em;
+        text-shadow: 1px 1px 1px #000000;
+    
+    }
+    
+    h3{
+    
+        font-size: .875em;
+        height: 30px;
+        padding: 10px;
+    }
+    h4{
+        font-size: .75em;
+        text-align: center;
+    }
+    h5{
+        font-size: .75em;
+  
+    }
+
+article{
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: .9em;
+    text-align: justify;
+
+}
+
+.buttons-container{
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    margin-top: 0;
+    padding-bottom: 0;
+    /* button formatting */
+   .button {
+        padding: 10px;
+        width: 100px;
+        
+        font-size: .875em;
+        margin: 4px 4px;
+    
+    }
+    /* button text */
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: .75em;
+
+    }
+}
+
+
+/* page header2 font sizes */
+
+
+/* ---NAV BAR */
+.menu{
+
+    ul{
+        flex-direction: inline-block;
+        flex-wrap: wrap;
+        align-items: center;
+        width:100%;
+        justify-content: center;
+        font-size: 1em;
+        
+    }
+    li {
+        margin: 0;
+        font-size: .75em;
+      }
+    a {
+        padding: 5px 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+ 
+    .active{
+       
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+}
+
+/* ---INDEX--HOMEPAGE */
+/* hero image = welcome section*/
+
+ .welcomemsg { 
+    height: 180px;
+    h2{
+        padding-top: 50px;
+        font-size: 1.3em;
+        text-shadow: 1px 1px 1px #000000;
+    }
+}   
+
+/* Events */
+.events {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    width: 100%;
+    align-items: center;
+    article{
+        border-radius: 5px;
+        
+    }
+}
+
+/* Traditional Recipes */
+.traditionalrecipes{
+    padding-top: 10px;
+    article{
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+
+.imagesrecipes-container {
+    align-items: center;
+    flex-direction: row;
+   
+    .recipesimages img {
+        width: 150px;
+        height: 150;
+        padding: 10px;
+    
+}
+}
+
+
+/*Dining experiences section*/
+/* dining experiences container */
+.dining-container{
+    
+    padding-top: 10px;
+
+   /* dining experiences sub-container */
+   .dining-container2{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        float: center;
+        width: auto;
+        /* dinging experiences paragraph container */
+        article{
+            margin-left: 20px;
+            margin-right: 20px;
+            width: auto;
+            text-align: center;
+    
+        }
+        .diningparagraph{
+            width: 100%;
+            line-height: 1.5;
+            float: center;
+            align-items: center;
+            justify-content: center;
+    
+            article{
+                width: auto;
+                margin-left: 20px;
+                margin-right: 20px;
+                padding: 25px;
+                text-align: center;
+                justify-content: center;
+            
+            }
+            /* VIEW GALLERY button */
+            .gallerylink-container{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: auto;
+                align-items: center;
+
+            }
+            #gallerylink a{
+                width: 100px;
+                font-size: 1em;
+                margin: 25px;
+                margin-top: 10px;
+                padding-bottom: 5px;
+                float: center;
+                padding: 5px;
+                border-radius: 10px;
+            }
+            #gallerylink a:hover{
+                background-color: white;
+                color: rgb(0, 0, 0);
+                       
+            }
+        }   
+        /* dining experiences image container */
+        .dining{
+
+            width: auto;
+            height: auto;
+           img{
+                flex-direction: column;
+                float: center;
+                width: 300px;
+                margin: 25px;
+
+
+            }
+        }
+        /* dining experience images */
+        
+   }
+ 
+ 
+    }
+/* Paragraph formatting (traditional recipes, what's on) */
+article{
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+/* TESTIMONIALS section */
+/* testimonials main container */
+.testimonials{
+    padding-top: 10px;
+
+/* testimonials sub-container */
+    .testimonials-container{
+    
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 0;
+        /* testimonials paragraph */
+            p{
+            
+            margin: 5px;
+            margin-bottom: 25px;
+            text-align: center;
+            width: auto;
+            height: auto;
+            line-height: 1.5;
+            font-size: .75em;
+            padding: 10px;
+
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 10px; 
+            
+        } 
+    }
+   
+}
+
+
+/* footer Section*/
+/*FOOTER main container */
+footer{
+    flex-direction: column;
+    
+ 
+    /* restaurant name formatting */
+    h5{
+        font-size: .825em;
+    }
+    p{
+        font-size: .75em;
+    }
+    /* footer sub-container1 - address and links */
+    .footer1{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 0;
+        .footers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            #restaurant-name{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1em;
+
+            }
+            .address, .hours,
+            .quicklinks-container,
+            .socialscontainer {
+                flex:auto;
+                width: auto;; 
+                padding-top: 10px;
+                /* box-sizing:content-box; */
+                flex-direction: column;
+                font-size: .75em;
+            
+     
+            }
+            .quicklinks-container{
+                display: none;
+            }
+            .socialscontainer{
+                ul.sociallinks,ul.quicklinks{
+                    font-size: .75em;
+                
+                }
+
+            }
+    }
+    }
+    /* footer sub-container2 - copyright etc */
+    .footer2{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        border-top: 1px groove rgb(255, 255, 255);
+        .copyright, .privacy, .terms{
+            font-size: .75em;
+        }
+    }
+
+}
+  
+
+ /* ----------ABOUT US PAGE-------------- */
+/* Header - About Us */
+.header2{
+    height: 50px;
+    width: 100%;
+    h2{
+    font-size: 1em;
+}
+}
+
+
+/* about us page */
+
+/* About Us Paragraph and photo */
+.about-us-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 25px;
+    
+
+    #about-us-image{
+        width: 400px;
+        justify-content: center;
+        align-content: center;
+        margin: 0;
+        
+
+    }
+    img{
+        height: auto;
+        width: 200px;
+    }
+    #aboutusparagraph{
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 25px;
+        width: auto;
+        padding: 25px;
+                   
+        p{
+            font-size: .75em;
+            font-weight: 500;
+            line-height: 1.5;
+           
+        }
+    }
+
+}
+.businesshours_aboutus{
+
+    
+        #businesshours{
+    
+            padding-bottom: 10px;
+            #businesshours2{
+           
+                padding-bottom: 10px;
+            }
+        }
+    }
+/* ----MENU PAGE */
+/* menu page buttons main container */
+.menucontainer{
+    margin-left: 25px;
+    margin-right: 25px;
+   
+
+    h3{
+        padding-top: 25px;
+       
+    }
+    .menu1, .menu2{
+        
+        padding-top: 25px;
+        flex-direction: column;
+        width: 100%;
+       
+       
+        .menubuttons{
+    
+        text-align: center;
+        justify-content: space-around;
+        height: 50px;
+        width: 150px;
+        padding: 10px;
+        /* background and border */
+        
+        border-width: 3px;
+    /* text formatting */
+        font-size: .875em;
+        }
+
+    }
+    .menu3{
+        height: 50px;
+        width: auto;
+        padding: 25px;
+        margin-top: 10px;
+        .menubuttons{
+        
+        font-size: .875em;
+        width: auto;
+        height: 50px;
+        
+    }
+    }
+
+  
+/* formatting for VIEW FULL MENU button */
+
+   
+}
+
+
+/* ----RESERVATIONS PAGE */
+/* reservations instructions*/
+.reservations{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    h3{
+        margin-top: 25px;
+        
+    }
+    p{
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+    
+#businesshours {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-top: 0;
+        h3{
+            padding-top: 0px;
+        }
+    }
+
+/* google calendar formatting */
+    .googlecalendar {
+        flex-direction: column;
+        width: auto;
+        padding-bottom: 25px;
+        iframe{
+            width: auto;
+            height: 500px;
+
+            
+        }
+    }
+/* GIFT CARDS PAGE */
+/* giftcard paragraph container */
+#giftcard-paragraph{
+   
+    height: auto;
+    padding: 0;
+    
+    p{  
+        height: auto;
+        width: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 0;
+        font-size: .75em;
+        
+    }
+
+}
+.giftcards-container{
+    
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    p{
+        font-size: .75em;
+        font-weight: 500;
+
+    }
+    .giftcardsimg{
+        
+        padding-bottom: 50px;
+        margin: 0;
+    
+
+        /* gift cards images */
+        img{
+        width: 150px;
+        height: auto;
+        padding: 25px;
+        padding-bottom: 0;
+        
+    
+        }
+        p{
+            padding: 0;
+
+        }
+        /* gift cards buy now button */
+        .button{
+            width: 150px;
+            height: 50px;
+            font-size: .875em;
+            a{
+                padding: 0;
+                
+            }
+        }
+        .button:hover{
+            background-color: #ffffff;
+            a{
+                color: black;
+        }
+        }
+    }
+
+}
+
+/* GALLERY PAGE */
+/* paragprah container */
+#gallery-paragraph{
+   
+    padding: 25px;
+    padding-bottom: 25px;
+    height: 400px;
+    width: auto;
+   
+    p{  
+        width: auto;
+        height: 150;
+        font-size: .75em;
+        
+    }
+}
+.galleryimages-container1, .galleryimages-container2 {
+ 
+    margin-bottom: 10px;
+    h3{
+       width: 100px;  
+       height: 50px;   
+       padding: 25px;
+       margin-top: 50px;
+        }
+    
+    .restaurant-images img, .foods_img img{
+            width: 150px;
+            height: auto;
+        }
+    
+  
+}
+
+    
+
+/* ----CONTACT US PAGE */
+.contactus-container{
+    
+    justify-content: center;
+    #businesshours{
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        width: auto;
+        padding:0;
+        margin: 0;
+    
+    h3{
+        padding-top: 0;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+    h4{
+        font-weight: 100;
+        padding: 5px;
+        margin: 0;
+    }
+    }
+
+    
+/* google maps */
+    .googlemap{
+        width: 200px;
+        height: 200px;
+        padding-bottom: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+        .contact-address{
+
+            width: auto;
+            height: 80px;
+            padding-bottom:  10px;
+
+            h3{
+                padding-bottom: 15px;
+            }
+            p{
+                width: 300px;
+            }
+            iframe{
+                width: 350px;
+                height: 300px;
+                    
+            } 
+            p{
+                width: auto;
+                padding-bottom: 25px;
+            }
+        }
+    }      
+        
+        
+        .contactusform{
+            width: auto;
+            height: auto;
+            padding-bottom: 0;
+            .contact-inquiry {
+                
+                width: 300px;
+                height: 100px;
+        
+            h3{
+                padding-bottom: 15px;
+            }
+            p{
+                height: auto;
+                padding-bottom: 25px;
+                font-size: .75em;
+
+            }
+            }
+            iframe {
+                width: auto;
+                height: 1000px;
+                padding: 0;
+                padding-bottom: 0;
+            }
+            
+        
+
+
+    }
+}
+
+}
+@media only screen and (max-width: 800px){
+
+   
+    h1{
+        font-size: 2em;
+       
+        
+    }
+    h2{
+       
+        font-size: 1.5em;
+        text-shadow: 2px 2px 2px #000000;
+    
+    }
+    
+    h3{
+    
+        font-size: 1.3em;
+        height: 20px;
+        padding: 5px;
+    }
+    h4{
+        font-size: .875em;
+        text-align: center;
+    }
+    h5{
+        font-size: .75em;
+        
+    }
+  
+    
+    /* VIEW MENU AMD BOOK NOW BUTTONS */
+    /* buttons main container */
+    .buttons-container{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 100px;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        align-items: center;
+        
+        
+        /* button formatting */
+       .button {
+            
+            border-radius: 15px;
+            padding: 10px 20px;
+            width: 120px;
+            
+            margin: 4px 8px;
+            text-align: center;
+            text-decoration: none;
+            
+            cursor: pointer;
+            font-size: .75em;
+        
+        
+        }
+
+    
+  
+        }
+    
+    
+    
+    /* ---NAV BAR */
+    .menu{
+        margin-left: auto;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        ul{
+            font-size: .875em;
+            
+        }
+        a {
+            padding: 8px 8px;
+            margin-left: 8px;
+            margin-right: 8px;
+            
+        }
+    }
+    
+    /* ---INDEX--HOMEPAGE */
+    /* hero image = welcome section*/
+    
+     .welcomemsg {
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        background-position: 80%;
+        height: 200px;
+        h2{
+            padding-top: 50px;
+            font-size: 1.5em;
+            height: 50px;
+                   }
+    
+    }   
+    
+    
+    
+    /* Events */
+    .events {
+
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 25px;
+        width: auto;
+        h3{
+            padding-bottom: 25px;
+            
+        }
+        article{
+            font-size: .875em;
+        }
+        
+      
+    }
+    
+    /* Traditional Recipes */
+    .traditionalrecipes{
+        padding-top: 30px;
+        article{
+            width: auto;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 25px;
+            text-align: left;
+            justify-content: left;
+            font-size: .875em;
+    }
+    }
+    
+    .imagesrecipes-container {
+        width: 100%;
+        .recipesimages img {
+            width: 200px;
+            height: 200px;
+            
+        
+    }
+    }
+    
+    
+    /*Dining experiences section*/
+    /* dining experiences container */
+    .dining-container{
+        
+        padding-top: 50px;
+        h3{
+            padding-bottom: 25px;
+        }
+       
+       /* dining experiences sub-container */
+       .dining-container2{
+          
+            flex-direction: row;
+            align-items: center;
+        
+            /* dinging experiences paragraph container */
+            .diningparagraph{
+                flex-direction: row;
+                width: auto;
+                line-height: 1;
+        
+                article{
+                    display: flex;
+                    text-align: left;
+                    padding: 25px;
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    font-size: .875em;
+                    height: auto;
+                    width: auto;
+                    line-height: 1.3;
+                
+                }
+                /* VIEW GALLERY button */
+                #gallerylink a{
+    
+                    font-size: .75em;
+                    margin-left: 100px;
+                    margin-top: 10px;
+                    color: white;
+                    border-radius: 15px;
+                }
+            
+            }   
+            /* dining experiences image container */
+            .dining{
+                display: flex;
+                flex-direction: row;
+                
+                width: 300px;
+                height: auto;
+                    /* dining experience images */
+               img{
+                    float: center;
+                    height: auto;
+                    width: 300px;
+                    margin-top: 20px;
+                    margin-right: 0;
+    
+    
+                }
+            }
+        
+            
+        } 
+        }
+
+    
+    
+    /* TESTIMONIALS section */
+    /* testimonials main container */
+    .testimonials{
+        padding-top: 0;
+        
+    /* testimonials sub-container */
+        .testimonials-container{
+        
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-bottom: 25px;
+            /* testimonials paragraph */
+                p{
+                
+                margin-bottom: 0;
+                
+                font-size: .875em;
+                padding: 15px;
+     
+            } 
+        }
+       
+    }
+    
+    
+    /* footer Section*/
+    /*FOOTER main container */
+    footer{
+        color: #ffffff;
+        background-color:#C71C19;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* restaurant name formatting */
+        h5{
+            font-family: 'Open Sans',sans-serif;
+            font-size: 1em;
+        }
+        /* footer sub-container1 - address and links */
+        .footer1{
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-top: 5px;
+            .footers {
+                
+                #restaurant-name{
+                
+                    font-size: 1em;
+    
+                }
+                .address, .hours,
+                .quicklinks-container,
+                .socialscontainer {
+                    max-width: 100px; 
+                    font-size: .75em;
+                
+                    .quicklinks,
+                    .sociallinks {
+                        
+
+                        .quicklinks li,
+                        .sociallinks li {
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                         
+    
+                        }
+    
+                    }
+                
+            
+                }
+                
+                .socialscontainer{
+               
+                    padding-left: 25px; 
+                    ul.sociallinks,ul.quicklinks{
+                    
+                        list-style-type: none;
+                        
+                    
+                    }
+    
+                }
+        }
+        }
+        /* footer sub-container2 - copyright etc */
+        .footer2{
+            
+            padding: 10px;
+            border-top: 1px groove rgb(255, 255, 255);
+            .copyright, .privacy, .terms{
+                font-size: .75em;
+            }
+    
+        }
+    
+    }
+      
+    
+     /* ----------ABOUT US PAGE-------------- */
+    /* Header - About Us */
+    .header2{
+    
+        height: 100px;
+        width: 100%;
+       
+        h2{
+        font-size: 1.5em;
+    }
+    }
+    
+    
+    /* about us page */
+    
+    /* About Us Paragraph and photo */
+    .about-us-container{
+        padding-top: 20px;
+        
+    
+    
+        img{
+            padding-top: 25px;
+            height: 250px;
+            width: 250px;
+        }
+        #aboutusparagraph{
+            
+            margin: 0;
+            width: 300px;
+            padding-left: 60px;
+        
+            
+            p{
+                font-size: .75em;
+                font-weight: 100;
+                line-height: 1.3;
+               
+            }
+        }
+    
+    }
+    .businesshours_aboutus{
+        h3{
+            padding-bottom: 25px;
+        }
+    
+            #businesshours{
+                padding: 0;
+                padding-bottom: 25px;
+                h4{
+                    font-weight: 400;
+                }
+                #businesshours2{
+                    padding: 0;
+                    padding-bottom: 25px;
+                }
+            }
+        }
+    /* ----MENU PAGE */
+    /* menu page buttons main container */
+    .menucontainer{
+
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    
+        h3{
+            padding-top: 50px;
+           
+        }
+        .menu1, .menu2 {
+    
+            padding-top: 50px;
+          
+            .menubuttons{
+                
+                height: 40px;
+                width: 150px;
+                padding: 10px;
+                /* background and border */
+                
+                border-width: 2px;
+            /* text formatting */
+                color:white;
+                font-size: .875em;
+                text-decoration: none;
+                
+            }
+        }
+        .menu3{
+            height: 50px;
+            width: 100%;
+            padding: 10px;
+            margin-top: 50px;
+            justify-content: center;
+           .menubuttons{
+                
+                height: 50px;
+                width: 150px;
+                padding: 20px;
+                /* background and border */
+               
+                border-width: 1px;
+            /* text formatting */
+                color:white;
+                font-size: .875em;
+                text-decoration: none;
+            
+        }
+        }
+        
+    
+    }
+    
+    
+    /* formatting for VIEW FULL MENU button */
+
+        /* hover effect for all menu page buttons */
+  
+    /* ----RESERVATIONS PAGE */
+    /* reservations instructions*/
+    .reservations{
+      
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 25px;
+        padding-bottom: 0;
+        h3{
+            margin-top: 0;
+
+            
+        }
+    
+     
+    }
+    
+    #businesshours {
+        padding-top: 0;
+    
+    }
+    /* google calendar formatting */
+    .googlecalendar {
+    
+        width: auto;
+        padding-bottom: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        iframe{
+            width: 500;
+            height: 500px;
+            
+        }
+    }
+    /* GIFT CARDS PAGE */
+    /* giftcard paragraph container */
+    #giftcard-paragraph{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 80px;
+        padding-top: 0;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        p{  
+            
+            height: 80px;
+            width: auto;
+            font-size: .875em;
+            line-height: 1.5;
+            
+        }
+    
+    }
+    .giftcards-container{
+    
+        margin-left: 50px;
+        margin-right: 50px;
+        p{
+            font-size:  .875em;
+            font-weight: 400;
+        }
+        .giftcardsimg{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 50px;
+        
+            p{
+                padding: 25px;
+                margin: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            /* gift cards images */
+            img{
+            width: 200px;
+            height: auto;
+            
+        
+            }
+            /* gift cards buy now button */
+            .button{
+                
+                width: 120px;
+                height: 40px;
+                color: white;
+                font-size: .875em;
+               
+            }
+            .button:hover{
+                background-color: #ffffff;
+                a{color: black;
+            }
+            }
+        }
+    
+    }
+    
+    /* GALLERY PAGE */
+    /* paragprah container */
+    #gallery-paragraph{
+    
+        height: 50px;
+        padding: 25px;
+        padding-bottom: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        p{  
+            
+            height: 100px;
+            width: auto;
+            font-size: .875em;
+            
+        }
+    }
+    .galleryimages-container1, .galleryimages-container2 {
+    
+        width: 100%;
+        column-gap: 5px;
+        height: auto;
+        margin-bottom: 50px;
+        h3{
+           
+           width: 100%;     
+           padding: 50px;
+           padding-top: 0;
+            }
+        
+        .restaurant-images img,.foods_img img{
+                width: 200px;
+                height: auto;
+            }
+        }
+    
+        
+    
+    /* ----CONTACT US PAGE */
+    .contactus-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        #businesshours{
+            height: 100px;
+            width: auto;
+            padding: 25px;
+        }
+        h3{
+            padding-top: 0;
+            padding-bottom: 15px;
+        }
+        h4{
+           
+            font-weight: 100;
+            padding: 5px;
+          
+        }
+    
+    /* google maps */
+        .googlemap{
+           
+            padding-bottom: 50px;
+            .contact-address{
+                
+              
+                p{
+                    text-align: center;
+                    width: 100%;
+                    height: auto;
+                    flex-direction: column;
+                    padding-bottom: 25px;
+                }
+           }
+        }
+        .contactusform{
+                width: 100%;
+                padding-bottom: 25px;
+                .contact-inquiry {
+                    
+                    width: auto;
+                    height: 100px;
+         
+                
+            }
+    
+    
+        }
+    }
+    
+
+
+
+
+
+}
+    
