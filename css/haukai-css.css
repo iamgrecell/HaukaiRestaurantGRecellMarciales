@@ -491,11 +491,11 @@ footer{
     }
 /* gallery page */
 #gallery{
-    background-image: url(images/bacons.jpg);
+    background-image: url(../images/bacons.jpg);
 }    
 /* contact page */
 #contact{
-    background-image: url(images/contact.jpg);
+    background-image: url(/images/contact.jpg);
 }
 /* reservations page */
 #reservations{
@@ -1255,9 +1255,7 @@ footer{
             
      
             }
-            .quicklinks-container{
-              
-            }
+            
             .socialscontainer{
                 ul.sociallinks,ul.quicklinks{
                     font-size: .75em;
