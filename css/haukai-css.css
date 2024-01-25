@@ -1531,14 +1531,14 @@ footer{
  
     margin-bottom: 10px;
     h3{
-       width: 100px;  
+       width: auto;  
        height: 50px;   
        padding: 25px;
        margin-top: 50px;
         }
     
     .restaurant-images img, .foods_img img{
-            width: 150px;
+            width: 100px;
             height: auto;
         }
     
