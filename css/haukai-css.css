@@ -1217,6 +1217,7 @@ article{
 /*FOOTER main container */
 footer{
     flex-direction: column;
+    height: 500px;
     
     /* restaurant name formatting */
     h5{
