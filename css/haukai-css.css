@@ -1217,7 +1217,7 @@ article{
 /*FOOTER main container */
 footer{
     flex-direction: column;
-    height: 500px;
+    height: auto;
     
     /* restaurant name formatting */
     h5{
@@ -1253,6 +1253,7 @@ footer{
             .quicklinks-container,
             .socialscontainer {
                 flex:auto;
+                height: auto;
                 width: auto;
                 padding-top: 10px;
                 /* box-sizing:content-box; */
