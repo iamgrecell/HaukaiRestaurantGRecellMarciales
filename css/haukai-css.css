@@ -1274,6 +1274,15 @@ footer{
     }
     }
     /* footer sub-container2 - copyright etc */
+    
+    footer1{
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
     .footer2{
       height: 50px;
         align-items: center;
