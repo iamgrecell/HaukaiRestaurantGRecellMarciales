@@ -1218,6 +1218,7 @@ article{
 footer{
     flex-direction: column;
     height: auto;
+    float: left;
     
     /* restaurant name formatting */
     h5{
@@ -1264,8 +1265,8 @@ footer{
             }
           
             
-            .socialscontainer,.quick links-container{
-                ul.sociallinks,ul.quicklinks{
+            .socialscontainer,.quicklinks-container{
+                ul.sociallinks,ul.quicklinks, ul.quicklinks-container{
                     font-size: .75em;
                 
                 }
