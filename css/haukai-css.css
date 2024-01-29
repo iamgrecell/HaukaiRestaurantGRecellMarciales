@@ -283,13 +283,13 @@ font-family:'Times New Roman', Times, serif;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: 500px;
+            width: auto;
             height: auto;
            img{
                 float: right;
                 height: auto;
-                width: 400px;
-                margin-right: 100px;
+                width: 700px;
+                margin-right: 0;
 
 
             }
