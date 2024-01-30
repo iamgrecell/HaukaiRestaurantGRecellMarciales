@@ -63,87 +63,91 @@ font-family:'Times New Roman', Times, serif;
 
 /* VIEW MENU AMD BOOK NOW BUTTONS */
 /* buttons main container */
-.buttons-container {
+.buttons-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    justify-content: center;
     height: 70px;
     margin-top: 80px;
     padding-bottom: 50px;
-}
+    /* button formatting */
+   .button {
+        display: inline-block;
+        background-color: #C71C19;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        
+        padding: 15px 32px;
+        width: 160px;
+        
+        font-size: 16px;
+        margin: 4px 8px;
+        text-align: center;
+        text-decoration: none;
+        
+        cursor: pointer;
+    
+    
+    }
+    /* button text */
+    a{
+        color: white;
+        text-decoration: none;
+    }
+/* hover */
+    :hover a{
 
-.buttons-container .button {
-    display: inline-block;
-    background-color: #C71C19;
-    color: white;
-    border: none;
-    border-radius: 15px;
-    padding: 15px 32px;
-    width: 160px;
-    font-size: 16px;
-    margin: 4px 8px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.buttons-container .button:hover a {
-    color: #000000;
-    font-weight: 600;
-}
-
-.buttons-container a {
-    color: white;
-    text-decoration: none;
-    position: relative; /* Added for stacking context */
+        color: #000000;
+        font-weight: 600;
+    
+ } 
 }
 
 
 
 /* ---NAV BAR */
-.navbar {
+.navbar{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
-.menu {
+.menu{
     display: flex;
-    flex-direction: row;
+   flex-direction: row;
     margin-left: auto;
     width: 100%;
     flex-wrap: wrap;
-}
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: right;
+        font-size: 1em;
+        width: 100%;
+    }
+    a {
+        display: flex;
+        padding: 10px 10px;
+        color: #fcfcfc;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    li a:hover:not(.active) {
 
-.menu ul {
-    display: flex;
-    list-style: none;
-    justify-content: flex-end;
-    font-size: 1em;
-    width: 100%;
+        color: black;
+        font-weight: 600;
+        }
+    .active{
+        background-color: #D25419;
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
 }
-
-.menu a {
-    display: flex;
-    padding: 10px 10px;
-    color: #fcfcfc;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.menu li a:hover:not(.active) {
-    color: black;
-    font-weight: 600;
-}
-
-.menu .active {
-    background-color: #D25419;
-    border-radius: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 
 /* ---INDEX--HOMEPAGE */
 /* hero image = welcome section*/
