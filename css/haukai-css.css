@@ -489,29 +489,29 @@ footer{
 /* ---header backgrounds */
 
 #aboutus{
-    background-image: url(/images/Team.jpg);
+    background-image: url(../images/Team.jpg);
     background-repeat: repeat-x;
     background-size: contain;
     }
 /* gallery page */
 #gallery{
-    background-image: url(/images/bacons.jpg);
+    background-image: url(../images/bacons.jpg);
 }    
 /* contact page */
 #contact{
-    background-image: url(/images/contact.jpg);
+    background-image: url(../images/contact.jpg);
 }
 /* reservations page */
 #reservations{
-    background-image: url(/images/reserved_photo.jpg);
+    background-image: url(../images/reserved_photo.jpg);
 }
 /* menu page */
 #menu{
-    background-image: url(/images/herbs.jpg);
+    background-image: url(../images/herbs.jpg);
 }
 /* gift cards page */
 #giftcards{
-    background-image: url(/images/gift_cards.jpg);
+    background-image: url(../images/gift_cards.jpg);
 }
 
 /* about us page */
