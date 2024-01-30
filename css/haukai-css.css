@@ -6,7 +6,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     color: white;
-    background-image: url(../images/restaurant_photo2.jpg);
+    background-image: url(/images/restaurant_photo2.jpg);
     width: auto;
     background-size: cover;
   
@@ -23,6 +23,7 @@ header{
 
 
 }
+/* header 1 */
 h1{
     width: fit-content;
     color: #ffffff;
@@ -32,6 +33,7 @@ h1{
    
     
 }
+/* header 2 */
 h2{
     align-items: center;
     font-size: 3em;
@@ -39,7 +41,7 @@ h2{
     text-shadow: 4px 4px 4px #000000;
 
 }
-
+/* header 3 */
 h3{
 
     font-size: 2em;
@@ -48,10 +50,12 @@ h3{
     height: 50px;
     padding: 30px;
 }
+/* header 4 */
 h4{
     font-size: 1em;
     text-align: center;
 }
+/* header 5 */
 h5{
     font-size: .875em;
 font-family:'Times New Roman', Times, serif;
@@ -142,7 +146,7 @@ font-family:'Times New Roman', Times, serif;
 
  .welcomemsg { 
     display: flex;
-    background-image: url(../images/restaurant_photo.jpg);
+    background-image: url(/images/restaurant_photo.jpg);
     flex-direction: column;
     align-items: center;
     background-size: cover;
@@ -165,7 +169,7 @@ font-family:'Times New Roman', Times, serif;
 
 
 
-/* Events */
+/* Events (What's On) */
 .events {
     display: flex;
     flex-direction: column;
@@ -283,19 +287,18 @@ font-family:'Times New Roman', Times, serif;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            width: auto;
+            width: 500px;
             height: auto;
+            /* dining experience images */
            img{
                 float: right;
                 height: auto;
-                width: 700px;
-                margin-right: 0;
+                width: 400px;
+                margin-right: 100px;
 
 
             }
-        }
-        /* dining experience images */
-        
+        }       
    }
  
     /* paragraph formatting - dining experiences */
@@ -485,13 +488,13 @@ footer{
 /* ---header backgrounds */
 
 #aboutus{
-    background-image: url(images/Team.jpg);
+    background-image: url(/images/Team.jpg);
     background-repeat: repeat-x;
     background-size: contain;
     }
 /* gallery page */
 #gallery{
-    background-image: url(../images/bacons.jpg);
+    background-image: url(/images/bacons.jpg);
 }    
 /* contact page */
 #contact{
@@ -499,15 +502,15 @@ footer{
 }
 /* reservations page */
 #reservations{
-    background-image: url(../images/reserved_photo.jpg);
+    background-image: url(/images/reserved_photo.jpg);
 }
 /* menu page */
 #menu{
-    background-image: url(../images/herbs.jpg);
+    background-image: url(/images/herbs.jpg);
 }
 /* gift cards page */
 #giftcards{
-    background-image: url(./images/gift_cards.jpg);
+    background-image: url(/images/gift_cards.jpg);
 }
 
 /* about us page */
@@ -808,9 +811,11 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: auto;
     column-gap: 5px;
     height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 100px;
     h3{
        display: flex;
@@ -1063,9 +1068,12 @@ article{
 /* Traditional Recipes */
 .traditionalrecipes{
     padding-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
     article{
-        padding-left: 20px;
-        padding-right: 20px;
+
+        padding-left: 0;
+        padding-right: 0;
         line-height: 1.5;
         text-align: center;
     }
@@ -1115,11 +1123,12 @@ article{
     
             article{
                 width: auto;
-                margin-left: 20px;
-                margin-right: 20px;
-                padding: 25px;
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 5px;
                 text-align: center;
                 justify-content: center;
+                font-size: .875em;
             
             }
             /* VIEW GALLERY button */
@@ -1129,6 +1138,7 @@ article{
                 width: 100%;
                 height: auto;
                 align-items: center;
+                padding-top: 20px;
 
             }
             #gallerylink a{
@@ -1219,31 +1229,30 @@ footer{
     flex-direction: column;
     height: auto;
     float: left;
-    
+    width: 100%;
+ 
     /* restaurant name formatting */
     h5{
         font-size: .825em;
-        
     }
-    h4{
-      font-size: .75px;
-      }
     p{
         font-size: .75em;
     }
     /* footer sub-container1 - address and links */
     .footer1{
-        height: auto;
         flex-direction: column;
-        flex-wrap: wrap;
         margin-left: 10px;
-        margin-right: 10px;
-        padding-top: 5px;
+        margin-right: 20px;
+        padding-top: 10px;
         padding-bottom: 0;
+        
         .footers {
-            display: flex;
+            display: inline;
             flex-wrap: wrap;
-            justify-content: center;
+            width: auto;
+            /* justify-content: center; */
+            height: 100%;
+            
             
             #restaurant-name{
                 font-family: 'Times New Roman', Times, serif;
@@ -1253,20 +1262,19 @@ footer{
             .address, .hours,
             .quicklinks-container,
             .socialscontainer {
-                flex:auto;
                 height: auto;
-                width: auto;
-                padding-top: 10px;
+                width: 300px; 
+                padding-top: 0;
                 /* box-sizing:content-box; */
                 flex-direction: column;
                 font-size: .75em;
+                padding-left: 10px;
             
      
             }
           
-            
-            .socialscontainer,.quicklinks-container{
-                ul.sociallinks,ul.quicklinks, ul.quicklinks-container{
+            .socialscontainer, .quicklinks-container{
+                ul.sociallinks,ul.quicklinks, .ul.quicklinks-container{
                     font-size: .75em;
                 
                 }
@@ -1275,20 +1283,11 @@ footer{
     }
     }
     /* footer sub-container2 - copyright etc */
-    
-    footer1{
-        height: 800px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    
     .footer2{
-      height: 50px;
-        align-items: center;
+        align-items: left;
         flex-direction: column;
         justify-content: space-between;
+        margin-left: 10px;
         padding: 10px;
         border-top: 1px groove rgb(255, 255, 255);
         .copyright, .privacy, .terms{
@@ -1368,6 +1367,7 @@ footer{
 .menucontainer{
     margin-left: 25px;
     margin-right: 25px;
+    
    
 
     h3{
@@ -1379,6 +1379,7 @@ footer{
         padding-top: 25px;
         flex-direction: column;
         width: 100%;
+        justify-content: space-between;
        
        
         .menubuttons{
@@ -1388,6 +1389,8 @@ footer{
         height: 50px;
         width: 150px;
         padding: 10px;
+        margin-top: 10px;
+        margin-right: 10x;
         /* background and border */
         
         border-width: 3px;
@@ -1428,13 +1431,11 @@ footer{
     padding-bottom: 0;
     h3{
         margin-top: 25px;
-        height: 50px;
         
     }
     p{
         text-align: center;
         padding: 10px;
-        height: 80px
     }
 
 }
@@ -1550,14 +1551,14 @@ footer{
  
     margin-bottom: 10px;
     h3{
-       width: auto;  
+       width: 100px;  
        height: 50px;   
        padding: 25px;
        margin-top: 50px;
         }
     
     .restaurant-images img, .foods_img img{
-            width: 100px;
+            width: 150px;
             height: auto;
         }
     
@@ -1655,8 +1656,8 @@ footer{
     }
 }
 
-}
-@media only screen and (max-width: 800px){
+
+@media only screen and (min-width: 601px) and(max-width: 1024px) {
 
    
     h1{
@@ -1762,16 +1763,18 @@ footer{
     /* Events */
     .events {
 
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 25px;
-        width: auto;
+        width: 100%;
         h3{
             padding-bottom: 25px;
             
         }
         article{
             font-size: .875em;
+            margin-left: 0;
+            margin-right: 0;
         }
         
       
@@ -1807,6 +1810,7 @@ footer{
     .dining-container{
         
         padding-top: 50px;
+        flex-direction: row;
         h3{
             padding-bottom: 25px;
         }
@@ -1814,21 +1818,21 @@ footer{
        /* dining experiences sub-container */
        .dining-container2{
           
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
         
             /* dinging experiences paragraph container */
             .diningparagraph{
-                flex-direction: row;
+                flex-direction: column;
                 width: auto;
                 line-height: 1;
         
                 article{
                     display: flex;
                     text-align: left;
-                    padding: 25px;
-                    margin-left: 50px;
-                    margin-right: 50px;
+                    padding: 0;
+                    margin-left: 10px;
+                    margin-right: 10px;
                     font-size: .875em;
                     height: auto;
                     width: auto;
@@ -1851,7 +1855,7 @@ footer{
                 display: flex;
                 flex-direction: row;
                 
-                width: 300px;
+                width: auto;
                 height: auto;
                     /* dining experience images */
                img{
@@ -2290,5 +2294,7 @@ footer{
 
 
 
-}
+
     
+}
+}
