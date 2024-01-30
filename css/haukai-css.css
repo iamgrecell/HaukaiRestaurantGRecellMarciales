@@ -63,83 +63,87 @@ font-family:'Times New Roman', Times, serif;
 
 /* VIEW MENU AMD BOOK NOW BUTTONS */
 /* buttons main container */
-.buttons-container{
+.buttons-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    justify-content: center;
     height: 70px;
     margin-top: 80px;
     padding-bottom: 50px;
-    /* button formatting */
-   .button {
-        display: inline-block;
-        background-color: #C71C19;
-        color: white;
-        border: none;
-        border-radius: 15px;
-        
-        padding: 15px 32px;
-        width: 160px;
-        
-        font-size: 16px;
-        margin: 4px 8px;
-        text-align: center;
-        text-decoration: none;
-        
-        cursor: pointer;
-    
-    
-    }
-    /* button text */
-    a{
-        color: white;
-        text-decoration: none;
-    }
-/* hover */
-    :hover a{
+}
 
-        color: #000000;
-        font-weight: 600;
-    
- } 
+.buttons-container .button {
+    display: inline-block;
+    background-color: #C71C19;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 32px;
+    width: 160px;
+    font-size: 16px;
+    margin: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buttons-container .button:hover a {
+    color: #000000;
+    font-weight: 600;
+}
+
+.buttons-container a {
+    color: white;
+    text-decoration: none;
+    position: relative; /* Added for stacking context */
 }
 
 
 
 /* ---NAV BAR */
-.menu{
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
     margin-left: auto;
     width: 100%;
-    ul{
-        display: flex;
-        list-style: none;
-        justify-content: right;
-        font-size: 1em;
-        width: 100%;
-    }
-    a {
-        display: block;
-        padding: 10px 10px;
-        color: #fcfcfc;
-        text-decoration: none;
-        margin-left: 10px;
-        margin-right: 10px;
-        
-    }
-    li a:hover:not(.active) {
-
-        color: black;
-        font-weight: 600;
-        }
-    .active{
-        background-color: #D25419;
-        border-radius: 15px;
-        margin-left: 10px;
-        margin-right: 10px;
-        
-    }
+    flex-wrap: wrap;
 }
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 1em;
+    width: 100%;
+}
+
+.menu a {
+    display: flex;
+    padding: 10px 10px;
+    color: #fcfcfc;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu li a:hover:not(.active) {
+    color: black;
+    font-weight: 600;
+}
+
+.menu .active {
+    background-color: #D25419;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 /* ---INDEX--HOMEPAGE */
 /* hero image = welcome section*/
@@ -927,7 +931,7 @@ footer{
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     body{
         
     margin: 0;
@@ -959,16 +963,16 @@ footer{
     
     h3{
     
-        font-size: .875em;
+        font-size: 1em;
         height: 30px;
         padding: 10px;
     }
     h4{
-        font-size: .75em;
+        font-size: 1em;
         text-align: center;
     }
     h5{
-        font-size: .75em;
+        font-size: 1em;
   
     }
 
@@ -976,7 +980,7 @@ article{
     padding: 20px;
     margin-top: 5px;
     margin-left: 10px;
-    font-size: .9em;
+    font-size: 1em;
     text-align: justify;
 
 }
@@ -990,7 +994,7 @@ article{
     /* button formatting */
    .button {
         padding: 10px;
-        width: 100px;
+        width: 120px;
         
         font-size: .875em;
         margin: 4px 4px;
@@ -1000,7 +1004,7 @@ article{
     a{
         color: white;
         text-decoration: none;
-        font-size: .75em;
+        font-size: 1em;
 
     }
 }
@@ -1129,7 +1133,7 @@ article{
                 padding: 5px;
                 text-align: center;
                 justify-content: center;
-                font-size: .875em;
+                font-size: 1em;
             
             }
             /* VIEW GALLERY button */
@@ -1212,7 +1216,7 @@ article{
             width: auto;
             height: auto;
             line-height: 1.5;
-            font-size: .75em;
+            font-size: 1em;
             padding: 10px;
 
             background-color: rgba(255, 255, 255, 0.3);
@@ -1234,10 +1238,10 @@ footer{
  
     /* restaurant name formatting */
     h5{
-        font-size: .825em;
+        font-size: 1em;
     }
     p{
-        font-size: .75em;
+        font-size: .875em;
     }
     /* footer sub-container1 - address and links */
     .footer1{
@@ -1268,7 +1272,7 @@ footer{
                 padding-top: 0;
                 /* box-sizing:content-box; */
                 flex-direction: column;
-                font-size: .75em;
+                font-size: 1em;
                 padding-left: 10px;
             
      
@@ -1276,7 +1280,7 @@ footer{
           
             .socialscontainer, .quicklinks-container{
                 ul.sociallinks,ul.quicklinks, .ul.quicklinks-container{
-                    font-size: .75em;
+                    font-size: 1em;
                 
                 }
 
@@ -1292,7 +1296,7 @@ footer{
         padding: 10px;
         border-top: 1px groove rgb(255, 255, 255);
         .copyright, .privacy, .terms{
-            font-size: .75em;
+            font-size: 1 vem;
         }
     }
 
@@ -1658,12 +1662,12 @@ footer{
 }
 }
 
-@media only screen and (min-width: 601px) and(max-width: 1024px) {
-    /* body{
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
+    body{
         
         margin: 0;
         padding: 0;
-    } */
+    }
     header{
       
         display: flex;
@@ -1710,7 +1714,7 @@ footer{
         display: flex;
         flex-direction: row;
         width: auto;
-        height: 100px;
+        height: 50px;
         margin-top: 20px;
         padding-bottom: 50px;
         align-items: center;
@@ -1742,32 +1746,40 @@ footer{
     /* ---NAV BAR */
     .navbar{
         width: 100%;
+        height: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        
+        box-sizing: border-box;
     }
     .menu{
        
         width: auto;
         height: auto;
         margin-left: 0;
+        box-sizing: border-box;
         ul{ 
-            display: flex;
+            /* display: flex; */
+            /* flex-direction: row; */
             flex-direction: row;
-            flex-wrap: wrap;
+           
             align-items: center;
             width:100%;
-            justify-content: space-around;
-            font-size: 1em;
+            justify-content: center;
+            font-size: 1.5em;
+            white-space: nowrap;
             
         }
-        /* li{
+        li{
             margin: 0;
-            font-size: 1em;
-        } */
+            font-size: 1.5em;
+            white-space: nowrap;
+        }
         a {
-            padding: 5px 5px;
-            margin-left: 5px;
-            margin-right: 5px;
+            /* padding: 5px 5px; */
+            /* margin-left: 5px;
+            margin-right: 5px; */
+            margin:5px;
             
         }
         .active{
@@ -1782,19 +1794,15 @@ footer{
     /* ---INDEX--HOMEPAGE */
     /* hero image = welcome section*/
     
-     .welcomemsg {
-        /* flex-direction: column;
-        align-items: center;
-        background-size: cover;
-        background-position: 80%; */
-        height: 150px;
+    .welcomemsg { 
+        height: auto;
+        padding: 0;
         h2{
-            padding-top: 50px;
+            padding: 0;
             font-size: 1.3em;
-            height: 50px;
-                   }
-    
-    }   
+            text-shadow: 1px 1px 1px #000000;
+        }
+    }    
     
     
     
@@ -1891,7 +1899,7 @@ footer{
             /* dining experiences image container */
             .dining{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 
                 width: auto;
                 height: auto;
