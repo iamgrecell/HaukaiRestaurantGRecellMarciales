@@ -36,15 +36,15 @@ h1{
 /* header 2 */
 h2{
     align-items: center;
-    font-size: 3em;
+    font-size: 1.7em;
     justify-content: center;
     text-shadow: 4px 4px 4px #000000;
-
+   
 }
 /* header 3 */
 h3{
 
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     border: none;
     height: 50px;
@@ -91,13 +91,9 @@ font-family:'Times New Roman', Times, serif;
     
     
     }
-    /* button text */
-    a{
-        color: white;
-        text-decoration: none;
-    }
+
 /* hover */
-    :hover a{
+    .button:hover {
 
         color: #000000;
         font-weight: 600;
