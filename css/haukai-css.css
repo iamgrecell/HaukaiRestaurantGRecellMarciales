@@ -727,9 +727,13 @@ ul.sociallinks,ul.quicklinks{
         text-align: center;
         padding: 10px;
     }
- 
+ #bookingform iframe{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 1505px;
 
-
+ }
 #businesshours {
     display: flex;
     flex-direction: column;
@@ -1512,7 +1516,12 @@ article{
         text-align: center;
         padding: 10px;
     }
-
+    #bookingform iframe{
+        display: block;
+        margin: 0 auto;
+        width: auto;
+        height: 1505px;
+    }
     #businesshours {
         display: flex;
         flex-direction: column;
@@ -2221,7 +2230,7 @@ article{
     .reservations h3 {
         margin-top: 0;
     }
-    
+   
     
     #businesshours {
         padding-top: 0;
