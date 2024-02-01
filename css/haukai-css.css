@@ -234,7 +234,7 @@ font-weight: 600;
 
 
 
-/*Dining experiences section*/
+/*INDEX-Dining experiences section*/
 /* dining experiences container */
 .dining-container{
     display: flex;
@@ -259,6 +259,7 @@ font-weight: 600;
     width: auto;
     height: auto;
     justify-content: space-evenly;
+    padding-top: 50px;
 }
         /* dinging experiences paragraph container */
 .diningparagraph{
@@ -348,10 +349,10 @@ article{
 
 
 
-/* TESTIMONIALS section */
+/* index  -TESTIMONIALS section */
 /* testimonials main container */
 .testimonials{
-    padding-top: 50px;
+    padding-top: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -372,13 +373,14 @@ article{
     margin-left: 100px;
     margin-right: 100px;
     padding-bottom: 100px;
+    padding-top: 50px;
 }
         /* testimonials paragraph */
 .testimonials-container p{
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     text-align: left;
     width: 500px;
     height: auto;
@@ -1784,10 +1786,10 @@ article{
         margin-top: 20px;
         padding-bottom: 50px;
         align-items: center;
-        
+    }
         
         /* button formatting */
-       .button {
+    .buttons-container .button {
             
             border-radius: 15px;
             padding: 10px 20px;
@@ -1805,7 +1807,7 @@ article{
 
     
   
-        }
+    
     
     
     
