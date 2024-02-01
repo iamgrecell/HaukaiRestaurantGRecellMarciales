@@ -398,6 +398,14 @@ article{
 hr{
     display: none;
 }
+.footer2hr{
+    display: block;
+    border: none;
+    height: 2px;
+    background-color: #D25419;
+    width: 100%;
+    margin: 10px;
+}
 footer{
     color: #ffffff;
     background-color:#C71C19;
@@ -487,7 +495,6 @@ ul.sociallinks,ul.quicklinks{
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 20px;
-    border-top: 2px groove rgb(255, 255, 255);
 
 }
 
