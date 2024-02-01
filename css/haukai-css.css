@@ -1273,8 +1273,9 @@ article{
         border: none;
         height: 2px;
         background-color: #D25419;
-        width: 30%;
-        margin: 10px;
+        width: 50%;
+        margin: 5px;
+        margin-left: 0;
         
     }
     footer {
@@ -1313,7 +1314,8 @@ article{
     
     .footer1 #restaurant-name {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 1em;
+        font-size: 1.3em;
+        height: 25px;
     }
     
     .footer1 .address,
@@ -1326,6 +1328,7 @@ article{
         flex-direction: column;
         font-size: 1em;
         padding-left: 10px;
+        padding-bottom: 30px;
     }
     
     .footer1 .socialscontainer,
@@ -1363,7 +1366,15 @@ article{
         font-size: .875em;
     }
     
-
+    .footer2hr{
+        display: block;
+        border: none;
+        height: 4px;
+        background-color: #D25419;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
 
   
 
