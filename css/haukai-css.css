@@ -6,7 +6,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     color: white;
-    background-image: url(../images/restaurant_photo2.jpg);
+    /* background-image: url(../images/restaurant_photo2.jpg); */
+    background-color: #000000;
     width: auto;
     background-size: cover;
   
@@ -111,20 +112,32 @@ font-family:'Times New Roman', Times, serif;
     flex-direction: row;
     flex-wrap: wrap;
 } */
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .menu{
     display: flex;
     flex-direction: row;
-    margin-left: auto;
-    width: 100%;
+    width: auto;
     flex-wrap: wrap;
 }
 .menu ul{
         display: flex;
         list-style: none;
-        justify-content: right;
+        justify-content: center;
         font-size: 1em;
-        width: 100%;
+        width: auto;
+       
     }
+.menu li{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
 .menu a {
     display: flex;
     padding: 5px 5px;
@@ -141,7 +154,7 @@ font-weight: 600;
 }
 .active{
     background-color: #EA8D00;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     
@@ -399,13 +412,20 @@ article{
 /*FOOTER main container */
 /* dont display the horizontal line */
 hr{
-    display: none;
+    display: block;
+    border: none;
+    height: 2px;
+    background-color: #EA8D00;
+    width: 50%;
+    margin: 5px;
+    margin-left: 0;
+    
 }
 .footer2hr{
     display: block;
     border: none;
     height: 2px;
-    background-color: #D25419;
+    background-color: #EA8D00;
     width: 100%;
     margin: 10px;
 }
@@ -783,6 +803,7 @@ ul.sociallinks,ul.quicklinks{
 .giftcards-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     margin-left: 100px;
@@ -811,7 +832,7 @@ ul.sociallinks,ul.quicklinks{
 }
 
         /* gift cards buy now button */
-.giftcards-container.giftcardsimg.button{
+/* .giftcards-container.giftcardsimg.button{
     border-color: #ffffff;
     border-style: solid;;
     background-color: transparent;
@@ -819,18 +840,20 @@ ul.sociallinks,ul.quicklinks{
     height: 50px;
     color: white;
     font-size: 1.5em;
-}
+} */
 .giftcardsimg a{
     text-decoration: none;
     color: white;
     
 }
         
-.giftcardsimg.button:hover{
+.giftcardsimg a.button:hover{
     background-color: #ffffff;
 }
-.giftcardsimg a{
-    color: black;
+.giftcardsimg .button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
 }
         
 
@@ -981,6 +1004,7 @@ ul.sociallinks,ul.quicklinks{
     width: 700px;
     height: 1000px;
     padding-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -1082,7 +1106,9 @@ article{
         font-size: 0.75em;
     }
     */
-
+    .menu li{
+        width: 110px;
+    }
     .menu a {
         padding: 3px 3px;
         margin-left: 2px;
@@ -1093,6 +1119,8 @@ article{
         border-radius: 5px;
         margin-left: 5px;
         margin-right: 5px;
+       
+        
     }
 
 
@@ -1849,11 +1877,12 @@ article{
         width: 100%;
         height: auto;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         align-self: center;
         justify-content: center;
 
-        box-sizing: border-box;
+       
     }
     .menu {
         width: auto;
@@ -1863,6 +1892,7 @@ article{
     
     .menu ul {
         flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
         width: 100%;
         justify-content: center;
@@ -1872,6 +1902,7 @@ article{
     .menu li {
         margin: 0;
         font-size: 1em;
+        width: 120px;
     }
     
     .menu a {
@@ -1895,7 +1926,7 @@ article{
     }
     .welcomemsg h2{
             padding: 0;
-            font-size: 1.3em;
+            font-size: 2em;
             text-shadow: 1px 1px 1px #000000;
         }
         
@@ -2055,12 +2086,14 @@ article{
         display: block;
         border: none;
         height: 2px;
-        background-color: #D25419;
+        background-color: #EA8D00;
         width: 50%;
         margin: 5px;
         margin-left: 0;
         
     }
+
+   
     footer {
         color: #ffffff;
         background-color: #C71C19;
@@ -2112,7 +2145,17 @@ article{
     }
     
     /* footer sub-container2 - copyright etc */
-    footer .footer2 {
+     .footer2hr{
+        display: block;
+        border: none;
+        height: 2px;
+        background-color: #EA8D00;
+        width: 100%;
+        margin: 5px;
+        margin-left: 0;
+
+     }
+        footer .footer2 {
         padding: 10px;
     }
     
@@ -2325,10 +2368,11 @@ article{
     
     /* gift cards buy now button */
     .giftcards-container .giftcardsimg .button {
-        width: 120px;
-        height: 40px;
+        width: auto;
+        height: auto;
         color: white;
         font-size: .875em;
+
     }
     
     .giftcards-container .giftcardsimg .button:hover {
