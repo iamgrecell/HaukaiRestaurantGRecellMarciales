@@ -1089,8 +1089,6 @@ article{
 
 
 
-/* page header2 font sizes */
-
 
 /* ---NAV BAR */
     .menu ul {
@@ -1446,12 +1444,12 @@ article{
 /* Header2 */
 /* Header2 */
     .header2 {
-        height: 50px;
+        height: 70px;
         width: 100%;
     }
 
     .header2 h2 {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     /* About Us Page */
@@ -1564,11 +1562,13 @@ article{
 
     .reservations h3 {
         margin-top: 25px;
+        font-size: 1em;
     }
 
     .reservations p {
         text-align: center;
         padding: 10px;
+        font-size: 1em;
     }
     #bookingform iframe{
         display: block;
@@ -1582,11 +1582,16 @@ article{
         align-items: center;
         justify-content: center;
         padding-bottom: 20px;
-        padding-top: 0;
+        padding-top: 50px;
     }
 
     #businesshours h3 {
-        padding-top: 0px;
+        padding-top: 30px;
+        font-size: 1em;
+    }
+    #businesshours2 p{
+        font-size: 1em;
+        text-align: center;
     }
 
     /* Google Calendar Formatting */
@@ -1718,25 +1723,29 @@ article{
     margin: 0;
 }
 
-.contactus-container #businesshours h3 {
-    padding-top: 0;
+.contactus-container #businesshours h3,
+.googlemap h3,
+.contactusform .contact-inquiry h3 {
+    padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
     height: auto;
+    font-size: 1em;
+    margin-top: 15px;
 }
 
 .contactus-container #businesshours h4 {
-    font-weight: 100;
     padding: 5px;
     margin: 0;
     height: auto;
+    font-size: 1em;
 }
 
 /* Google Maps */
 .contactus-container .googlemap {
     width: auto;
     height: auto;
-    padding-bottom: 0;
+    padding-top: 20px;
     margin: 0 auto;
 }
 
@@ -1750,9 +1759,6 @@ article{
     padding-bottom: 15px;
 }
 
-.contactus-container .googlemap .contact-address p {
-    width: auto;
-}
 
 .contactus-container .googlemap .contact-address p {
     width: auto;
@@ -1777,6 +1783,7 @@ article{
 
 .contactus-container .contactusform .contact-inquiry h3 {
     padding-bottom: 15px;
+
 }
 
 .contactus-container .contactusform .contact-inquiry p {
@@ -2176,9 +2183,9 @@ article{
         width: 100%;
     }
     
-    .header2 h2 {
-        font-size: 1em;
-    }
+    /* .header2 h2 {
+        font-size: 1.6em;
+    } */
     
     
     /* about us page */
@@ -2301,12 +2308,27 @@ article{
     
     .reservations h3 {
         margin-top: 0;
+        margin-bottom: 15px;
+
     }
    
     
     #businesshours {
         padding-top: 0;
+        height: auto;
     
+    }
+
+
+
+    #businesshours h3 {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    
+    }
+    #businesshours2 p{
+        font-size: 1em;
+        text-align: center;
     }
     /* google calendar formatting */
     .googlecalendar {
@@ -2319,6 +2341,7 @@ article{
     .googlecalendar iframe {
         width: 500px;
         height: 500px;
+        margin-bottom: 50px;
     }
     
     /* GIFT CARDS PAGE */
