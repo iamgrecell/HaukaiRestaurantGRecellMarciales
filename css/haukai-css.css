@@ -170,13 +170,13 @@ font-weight: 600;
  .welcomemsg { 
     display: flex;
     text-align: center;
-    background-image: url(../images/restaurant_photo.jpg);
+    background-image: url(../images/restaurant_photo02.jpg);
     flex-direction: column;
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
-    width: 100%;
+    width: auto;
     height: 350px;
  }
 .welcomemsg h2{
