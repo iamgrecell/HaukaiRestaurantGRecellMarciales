@@ -170,11 +170,11 @@ font-weight: 600;
  .welcomemsg { 
     display: flex;
     text-align: center;
-    background-image: url(../images/restaurant_photo02.jpg);
+    background: url(../images/restaurant_photo.jpg) center/cover no-repeat;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     background-position: 100%;
     width: auto;
     height: 350px;
@@ -1134,6 +1134,13 @@ article{
 /* hero image = welcome section*/
 
     .welcomemsg {
+        
+        display: flex;
+        text-align: center;
+        background: url(../images/restaurant_photo02.jpg) center/cover no-repeat;
+        flex-direction: column;
+        background-position: 100%;
+        width: auto;
         height: 160px;
     }
 
