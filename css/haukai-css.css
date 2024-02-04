@@ -1279,6 +1279,7 @@ article{
     .dining-container2 .dining img {
         flex-direction: column;
         float: center;
+        height: auto;
         width: 300px;
         margin: 25px;
     }
@@ -1402,7 +1403,10 @@ article{
         .quicklinks li,
         .sociallinks li{
             margin: 0;
+            height: 48px;
+            width: 100px;
         }
+       
 
     }
    
