@@ -1089,7 +1089,7 @@ article{
 
 
 
-/* page header2 font sizes */
+
 
 
 /* ---NAV BAR */
@@ -1449,9 +1449,9 @@ article{
         height: 50px;
         width: 100%;
     }
-
+/* page header2 font sizes */
     .header2 h2 {
-        font-size: 1em;
+        font-size: 1.4em;
     }
 
     /* About Us Page */
@@ -1723,6 +1723,7 @@ article{
     padding-bottom: 10px;
     margin: 0;
     height: auto;
+    font-size: 1.3em
 }
 
 .contactus-container #businesshours h4 {
@@ -1730,6 +1731,7 @@ article{
     padding: 5px;
     margin: 0;
     height: auto;
+    font-size: 1em;
 }
 
 /* Google Maps */
