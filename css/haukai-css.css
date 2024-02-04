@@ -170,7 +170,7 @@ font-weight: 600;
  .welcomemsg { 
     display: flex;
     text-align: center;
-    background: url(../images/restaurant_photo02.jpg) center/cover no-repeat;
+    background: url(../images/restaurant_photo.jpg) center/cover no-repeat;
     flex-direction: column;
     /* align-items: center;
     background-size: cover;
