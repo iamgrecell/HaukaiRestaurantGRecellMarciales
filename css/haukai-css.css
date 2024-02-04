@@ -97,7 +97,7 @@ font-family:'Times New Roman', Times, serif;
 /* hover */
 .button:hover {
 
-    color: #000000;
+    
     font-weight: 600;
 
 } 
@@ -149,14 +149,17 @@ font-family:'Times New Roman', Times, serif;
 }
 li a:hover:not(.active) {
 
-color: black;
+text-decoration: underline;
 font-weight: 600;
 }
 .active{
-    background-color: #EA8D00;
+
+    text-decoration: underline;
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: 600;
+    
     
 }
 
@@ -241,7 +244,7 @@ font-weight: 600;
 }
 .recipesimages img {
     width: 350px;
-    height: 350;
+    height: 350px;
     padding: 10px;
 
 }
@@ -330,7 +333,7 @@ font-weight: 600;
 .dining img{
     float: right;
     height: auto;
-    width: 500px;
+    width: 650px;
     margin-right: 100px;
     align-items:flex-start;
 
@@ -452,11 +455,7 @@ footer h5{
     justify-content: space-evenly;
 }
     
-#restaurant-name{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
 
-}
 .address, .hours,
 .quicklinks-container,
 .socialscontainer {
@@ -465,7 +464,7 @@ footer h5{
     padding: 10px;
     box-sizing: border-box;
     flex-direction: column;
-    font-size: .875em;
+    font-size: 1em;
 }
             
 .quicklinks,
@@ -494,7 +493,7 @@ footer h5{
 /* hover effect on links */
 .quicklinks a:hover,
 .sociallinks a:hover {
-    color:#000000;
+  
     font-weight: 600;
 }
 
@@ -635,6 +634,7 @@ ul.sociallinks,ul.quicklinks{
 .menucontainer{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: auto;
     height: auto;
     margin-left: 100px;
@@ -649,10 +649,12 @@ ul.sociallinks,ul.quicklinks{
     padding-top: 100px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
     text-align: center;
     align-items: center;
+    margin: 10px;
 }
 .menubuttons{
     display: flex;
@@ -689,9 +691,10 @@ ul.sociallinks,ul.quicklinks{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 65px;
+    height: auto;
     width: 210px;
-    padding: 20px;
+    padding: 0;
+    align-items: center;
     /* background and border */
     background-color: transparent;
     border-style: solid;
@@ -1353,7 +1356,7 @@ article{
     }
 
     footer p {
-        font-size: 0.875em;
+        font-size: 1em;
     }
 
     /* footer sub-container1 - address and links */
@@ -1371,12 +1374,6 @@ article{
         flex-wrap: wrap;
         width: auto;
         height: 100%;
-    }
-    
-    .footer1 #restaurant-name {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 1.3em;
-        height: 25px;
     }
     
     .footer1 .address,
@@ -1397,7 +1394,7 @@ article{
         ul.sociallinks,
         ul.quicklinks,
         ul.quicklinks-container {
-            font-size: .875em;
+            font-size: 1em;
             padding: 0;
             margin: 0;
             margin-top: 0;
@@ -1424,7 +1421,7 @@ article{
     .footer2 .copyright,
     .footer2 .privacy,
     .footer2 .terms {
-        font-size: .875em;
+        font-size: 1em;
     }
     
     .footer2hr{
@@ -1854,14 +1851,14 @@ article{
             
         border-radius: 15px;
         padding: 10px 20px;
-        width: 120px;
+        width: auto;
         
         margin: 4px 8px;
         text-align: center;
         text-decoration: none;
         
         cursor: pointer;
-        font-size: .75em;
+        font-size: 1em;
     
     
     }
@@ -2124,7 +2121,7 @@ article{
         .quicklinks-container,
         .socialscontainer {
             max-width: 150px;
-            font-size: 0.75em;
+            font-size: 1em;
         }
     
         .footers .quicklinks,
@@ -2162,7 +2159,7 @@ article{
     footer .footer2 .copyright,
     footer .footer2 .privacy,
     footer .footer2 .terms {
-        font-size: 0.75em;
+        font-size: 1em;
     }
     
     
@@ -2174,7 +2171,7 @@ article{
     }
     
     .header2 h2 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     
     
@@ -2240,6 +2237,7 @@ article{
         flex-direction: column;
         margin-left: 50px;
         margin-right: 50px;
+        flex-wrap: wrap;
     }
     
     .menucontainer h3 {
@@ -2260,6 +2258,7 @@ article{
         color: white;
         font-size: 1em;
         text-decoration: none;
+        flex-wrap: wrap;
     }
     
     .menucontainer .menu3 {
