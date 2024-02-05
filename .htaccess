@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile "var/www/html/HaukaiRestaurantGRecellMarciales/.htpasswd"
+AuthUserFile /private/.htpasswd
 Require valid-user
