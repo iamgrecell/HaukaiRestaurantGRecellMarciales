@@ -1,8 +1,4 @@
-<Files "staff.html">
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile "var/www/iamgrecell.github.io/HaukaiRestaurantGRecellMarciales/.htpasswd"
+AuthUserFile "var/www/html/HaukaiRestaurantGRecellMarciales/.htpasswd"
 Require valid-user
-</Files>
-<!-- chmod 644 .htaccess
-sudo service apache2 restart -->
