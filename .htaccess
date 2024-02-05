@@ -1,5 +1,5 @@
 AuthType Basic
 AuthName "Restricted access"
-AuthUserFile "./.htpasswd"
+AuthUserFile /private/.htpasswd
 Require valid-user
 
