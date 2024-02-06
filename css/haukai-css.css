@@ -569,6 +569,37 @@ ul.sociallinks,ul.quicklinks{
 #giftcards{
     background-image: url(../images/gift_cards.jpg);
 }
+/* STAFF PAGE */
+.roster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 800px;
+}
+/* Title */
+.roster h2{
+    padding: 25px;
+    height: auto;
+}
+/* hide reminder on desktop view (Please rotate mobile phone for better view) */
+.roster h3{
+    display: none;
+}
+.roster-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+.roster-container iframe{
+    height: 600px;
+    width: 80%;
+}
+
 
 /* about us page */
 
@@ -1438,8 +1469,26 @@ article{
         margin: 0;
         margin-bottom: 10px;
     }
+    /* STAFF PAGE */
 
-  
+    /* Title */
+    .roster h2{
+        padding: 10px;
+        height: auto;
+        font-size: 1.3em;
+    }
+    /* hide reminder on desktop view (Please rotate mobile phone for better view) */
+    .roster h3{
+        display: block;
+        font-size: 1em;
+        font-weight: 100;
+    }
+ 
+    .roster-container iframe{
+        height: 600px;
+        width: 97%;
+    }
+
 
  /* ----------ABOUT US PAGE-------------- */
 /* Header - About Us */
@@ -2175,6 +2224,18 @@ article{
     footer .footer2 .terms {
         font-size: 1em;
     }
+        /* STAFF PAGE */
+    
+      /* hides reminder to rotate phone on tablet view */
+    .roster h3{
+        display: none;
+    }
+ 
+    /* google sheet */
+    .roster-container iframe{
+
+        width: 90%;
+    }
     
     
      /* ----------ABOUT US PAGE-------------- */
@@ -2183,12 +2244,7 @@ article{
         height: 100px;
         width: 100%;
     }
-    
-    /* .header2 h2 {
-        font-size: 1.6em;
-    } */
-    
-    
+
     /* about us page */
     
     /* About Us Paragraph and photo */
